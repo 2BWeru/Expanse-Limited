@@ -18,6 +18,7 @@ import Contact from "./Components/Contact/Contact";
 import Gallery from "./Components/Gallery/Gallery";
 import Importance from "./Components/Importance/Importance";
 import Footer from "./Components/Footer/Footer";
+import Main from "./Components/Main/Main";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
     <Gallery />
     <Importance />
     <Patners/>
+    <Main />
     <Impact />
     <Contact />
     <Footer />

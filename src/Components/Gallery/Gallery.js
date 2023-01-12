@@ -18,7 +18,7 @@ function Gallery () {
                <div class="col-md-12">
                   <div class="titlepage">
                      <h2>Gallery</h2>
-                     
+
                   </div>
                </div>
             </div>
