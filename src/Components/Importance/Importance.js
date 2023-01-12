@@ -1,4 +1,7 @@
 import React from "react";
+import "./Importance.css";
+
+import img from "../../static/images/pr4.jpg"
 
 function Importance () {
     return(
@@ -33,7 +36,7 @@ function Importance () {
               <div class="col-md-6">
                  <div class="our_box">
                     <figure>
-                       <img src="./static/images/env.png" class="rounded-circle"   alt="#"/></figure>
+                       <img src={img}    alt="#"/></figure>
                  </div>
               </div>
            </div>

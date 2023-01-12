@@ -1,0 +1,10 @@
+h2{
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 1.6rem;
+    padding: 2rem 0;
+}
+img{
+    width: auto;
+    height: auto;
+    margin: 0 2rem;
+}
