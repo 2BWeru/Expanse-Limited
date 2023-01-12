@@ -1,40 +1,45 @@
 
 import React from "react";
 import './App.css';
-import Home from "./Components/Home/home";
-import Impact from "./Components/Impact/impact";
-import Generic from "./Components/Generic/generic";
-import Patners from "./Components/Patners/patners";
 
-import { BrowserRouter as Router, Routes, Route ,Link} from "react-router-dom";
+import "./static/css/style.css";
+import "./static/css/bootstrap.min.css";
+import "./static/css/responsive.css";
+// import "./static/css/modal.css";
+// import "./static/css/jquery.mCustomScrollbar.min.css"
 
-import "./static/css/main.css";
-import "./static/css/noscript.css";
-import "./static/css/fontawesome-all.min.css";
-
-
-
+import gif from "./static/images/loading.gif";
+import Header from "./Components/Header/header";
+import Slider from "./Components/Slider/Slider";
+import About from "./Components/About/About";
+import Impact from "./Components/Impact/Impact";
+import Patners  from "./Components/Patners/Patners";
+import Contact from "./Components/Contact/Contact";
+import Gallery from "./Components/Gallery/Gallery";
+import Importance from "./Components/Importance/Importance";
+import Footer from "./Components/Footer/Footer";
 
 
 function App() {
   return (
     <>
-      {/* <div id="wrapper"> */}
-      <Router>  
-
-              <Routes>
-                  <Route path="/"  element={<Home />}> </Route>
-                  <Route path="/gallery"  element={<Generic />}> </Route>
-                  <Route  path="/impact" element={<Impact />} > </Route>
-                  <Route  path="/patners" element={<Patners />} > </Route>
-
-                  {/* <Route  path="Generic" element={<Generic />} > </Route> */}
-                  {/* <Route> </Route> */}
-              </Routes>
-
-      </ Router>
-
-      {/* </div> */}
+    {/* loader */}
+    {/* <div class="loader_bg">
+         <center>
+            <div class="loader"><img src={gif} alt="#" /></div>
+         </center>
+      </div> */}
+    {/* end loader */}
+    
+    <Header />
+    <Slider />
+    <About />
+    <Gallery />
+    <Importance />
+    <Patners/>
+    <Impact />
+    <Contact />
+    <Footer />
     </>
   );
 }

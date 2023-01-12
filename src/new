@@ -1,0 +1,527 @@
+
+      {/* <!-- header --> */}
+      <header>
+         {/* <!-- header inner --> */}
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <div class="row">
+                                 <div class="col-4">
+                                    <a href=""><img src="./static/images/logo.png" width="80px" height="150px" alt="#" /></a>
+                                 </div>
+                                 <div class="col">
+                                    <h1 style="padding-top: 20px;"><b>Expanse Products </b> </h1>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <div class="header_information">
+                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                           </button>
+                           <div class="collapse navbar-collapse" id="navbarsExample04">
+                              <ul class="navbar-nav mr-auto">
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#about"> About Us  </a>
+                                 </li> 
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#ourwork">Gallery</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#mobile">We Work with</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                 </li>
+                              </ul>
+                              <div class="sign_btn"><a href="#impact">Our Impact</a></div>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      {/* <!-- end header inner --> */}
+      {/* <!-- end header --> */}
+      {/* <!-- banner --> */}
+     
+      <div id="myCarousel" class="carousel slide banner_main" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img class="first-slide" src="./static/images/fir3.webp" style="height: 700px" width="500px" alt="First slide"></img>
+               <div class="container">
+                  <div class="carousel-caption relative">
+                     
+                     <h1> <span>We Provide</span> High Quality Sawdust,
+                        Biomass Briquettes
+                        And  Pellets
+                     </h1>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img class="second-slide" src="./static/images/fir.jpg" style="height:700px" width="500px" alt="Second slide"></img>
+               <div class="container">
+                  <div class="carousel-caption relative">
+                     <h1> <span>And manufacture</span> them 
+                        for industrial clients,
+                        schools and the domestic market.
+                     </h1>
+                  </div>
+               </div>
+            </div>
+
+           
+         </div>
+         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+         </a>
+      </div>
+      {/* <!-- end banner --> */}
+      {/* <!-- about --> */}
+      <div id="about"  class="about">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="titlepage">
+                     <h2>About us </h2>
+                     <span></span>
+                     <p style="font-size: 20px;">
+                        Expanse Products Limited is a company in Nairobi, Kenya.
+                        Our sole purpose is to make sawdust briquettes as an alternative 
+                        and substitute source of energy.
+                     </p>
+                     <p style="font-size: 20px;">
+                        We use 100% sawdust biomass to manufacture high quality biomass briquette and pellets.
+                         Our raw material is dry sawdust ONLY .We are able to achieve a maximum moisture content of 6% to 8% at the time of packaging.
+                     </p>
+                     <p style="font-size: 20px;">
+                        Our current briquette production capacity is 20 tons per day, which will be increased to 30 tons per day by the end of 2022. 
+                     </p>
+
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="about_img">
+                     <figure>
+                        <img src="./static/images/pr2.jpg" alt="#"style="padding-left: 66px;" />
+                     </figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      {/* <!-- end about --> */}
+
+       {/* <!-- Vision --> */}
+            <div id="vision"  class="vision">
+               <div class="container">
+                  <div class="row d_flex">
+                     <div class="col-md-6">
+                        <div class="titlepage">
+                        
+                               <h2>Vision</h2>
+                                <p style="font-size: 20px;">
+                                 Become a regional champion
+                                  for innovative, high-quality, and environmentally friendly biomass briquettes.
+                                </p>
+                              
+                               <h2>Mission</h2>
+                                 <p style="font-size: 20px;">
+                                    Develop, manufacture, and supply high-quality sawdust briquettes solutions 
+                                    for industrial and domestic purposes, 
+                                    that are environmentally clean for the East African Markets.
+                                 </p>
+                           <a href="#contact2" class="read_more">Contact Us<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                      
+                        
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="titlepage">
+                        <h2>Why Choose Us ?</h2>
+                     <span></span>
+                     
+                        
+                        <p style="font-size: 20px;">
+                           Our briquettes are made entirely 
+                           from locally sourced sawdust waste and specially
+                           crafted for industrial boilers.
+                        </p>
+                      
+                        <p style="font-size: 20px;">
+                           We care about your broilers' durability and sustainability,
+                           hence, we use natural binding agent for super strong briquettes.
+                        </p>
+                           
+                        <p style="font-size: 20px;">
+                           As no chemicals or additional additives are used, our sawdust briquettes ensure that your broilers run efficiently.
+                        </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            {/* <!-- end Vision --> */}
+      {/* <!-- mobile --> */}
+      <div id="mobile"  class="about">
+         <div class="container">
+             
+            <div class="row d_flex">
+               <div class="col-md-12">
+                  
+                  <div class="titlepage">
+                     <h2>We Work with </h2>
+                  <span></span>
+                  <div class="row">
+                     <div class="col-sm-6">
+                        <figure><img src="./static/images/school.jpeg" alt="#"/></figure>
+                        <mark style="background-color: skyblue;"><b>learning institutions</b></mark>
+                        <p style="font-size: 20px;">
+                           To provide clean and pollution free fuel for their
+                           efficient and conducive cooking environment.
+                        </p>
+
+                     </div>
+                     <div class="col-sm-6">
+                        <figure><img src="./static/images/ind7.jpeg" height="100" alt="#"/></figure>
+                        <h3></h3>
+                        <mark style="background-color: skyblue;"><b>Industrial companies</b></mark>
+                        <p style="font-size: 20px;">
+                           To provide clean and efficient fuel for their boilers as part of basic
+                           foundation to their production system.
+                        </p>
+                     </div>
+                       </div>
+
+                  <div class="row">
+                     <div class="col-sm-6">
+                        
+                        <div>
+                        <figure><img src="./static/images/fire5.jpeg" class="rounded" alt="#"/></figure>
+                        </div>
+                        <div>
+                           <mark style="background-color: skyblue;"><b>Various institutions</b></mark>
+                           
+                           <p style="font-size: 20px;">Companies that produce wood sawdust as a byproduct
+                              and use it as our raw material, thereby making our contribution towards environment conservation,
+                              which is one of our core values</p>
+                        </div>
+
+                     </div>
+                     <div class="col-sm-6">
+                        <figure>
+                           <img src="./static/images/cook4.jpeg" class="rounded-bottom" width="170" height="100"  alt="#"/></figure>
+                        <mark style="background-color: skyblue;"><b>Domestic Users</b></mark>
+                        <p style="font-size: 20px;">
+                           For the provision of clean fuel for indoor use with minimum pollution and
+                           efficient and effective cooking environment
+                        </p>
+
+                     </div>
+                   </div>
+                   </div>
+                  
+               </div>
+               
+               </div>
+            </div>
+         </div>
+      {/* </div> */}
+      {/* <!-- end mobile --> */}
+      {/* <!-- impact --> */}
+      <div  id="advantages" class="contact">
+         <div class="container">
+            <div class="titlepage">
+               <h2>Benefits of Sawdust Briquettes</h2>
+               <hr style="background-color: green; width: 15%;height: 8px;"/>
+            </div>
+            <div class="row">
+               <div class="col-md-6 offset-md-0">
+                  
+                  
+                  <h2 style="color: white;">
+                     <span style="color: grey;">1.</span>
+                     Briquettes make use of organic materials that are common and renewable.
+                
+                     Hence, we are ensured of the sustainability of such a fuel source.
+                  </h2>
+                  
+                  
+                  <h2 style="color: white;">
+                     <span style="color: grey;">2.</span>
+                     It's also eco-friendly and has high burning efficiency than coal.
+                  </h2>
+                  
+                  <h2 style="color: white;">
+                     <span style="color: grey;">3.</span>
+                     They have a low amount of moisture and density, thus allowing them to burn at intense temperatures.
+                  </h2>
+               </div>
+               <div class="col-md-6">
+                  <div class="our_box"  style="margin-left: 100px; margin-top: 40px;">
+                     <figure>
+                        <img src="./static/images/env.png" class="rounded-circle"   alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      {/* <!-- impact --> */}
+      {/* <!-- our work --> */}
+      <div class="ourwork" id="ourwork">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Gallery</h2>
+                     
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="our_box">
+                     <figure><img src="./static/images/pell4.jpeg" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="our_box">
+                     <figure><img src="./static/images/pell.jpeg" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="our_box">
+                     <figure><img src="./static/images/expanse1.jpg" alt="#"/></figure>
+
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="our_box">
+                     <figure><img src="./static/images/saw1.jpeg" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="our_box">
+                     <figure><img src="./static/images/briq1.jpeg" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="our_box">
+                     <figure><img src="./static/images/Exp5.jpeg" alt="#"/></figure>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      {/* <!-- end our work --> */}
+     {/* <!-- impact --> */}
+     <div class="ourwork" id="impact" style="padding-left: 30px;">
+      <div class="container-fluid">
+         <div class="titlepage">
+            <h2>Our Impact</h2>
+            <hr />
+         </div>
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="our_box">
+                     <figure><img src="./static/images/recycle.png"  style="height:200px; width: 200px;" alt="#"/></figure>
+                  </div>
+           
+                  <div class="our_box">
+                     <h2><p><mark style="background-color: rgba(0, 128, 0, 0.287);">Environment Friendly</mark></p></h2>
+         
+                     <p style="font-size: 20px;">
+                        Briquettes are cleaner and greener source of energy.
+         
+                        They produce little or no smoke, soot, or carbon deposits when they burn,
+                        and no harmful gases or chemicals are emitted in their burning process. 
+                     </p>
+                  </div>
+               </div>
+
+               <div class="col-md-3">
+                  <div class="our_box">
+                     <figure><img src="./static/images/group-users.png" style="height:200px; width: 200px;" alt="#"/></figure>
+                  </div>
+                
+                  <div class="our_box">
+                     <h2><p><mark style="background-color: rgba(0, 128, 0, 0.287);">Creating Job Opportunities</mark></p></h2>
+                     
+                     <p style="font-size: 20px;">
+                        With the establishment of our company,
+                        we have employed several youths training them 
+                        and equipping them with the right set of skills . 
+                      
+                        Hence, changing the narrative of many jobless youths in Kenya,
+                        by creating year-round jobs. 
+                     </p>
+                  </div>
+               </div>
+            
+            
+               <div class="col-md-3">
+                  <div class="our_box">
+                     <figure><img src="./static/images/investment.png" style="height:200px; width: 200px;" alt="#"/></figure>
+                  </div>
+                  
+                  <div class="our_box">
+                     <h2><p><mark style="background-color: rgba(0, 128, 0, 0.287);">Cost Saving</mark></p></h2>
+                     
+                     <p style="font-size: 20px;">
+                        Our customers save an average of 40% compared to firewood and charcoal!
+                         
+                        Because briquettes are cheaper than other energy sources
+                        like fuel oil, propane and natural gas. 
+                     </p>
+                  </div>
+               </div>
+
+               <div class="col-md-3">
+                  <div class="our_box">
+                     <figure><img src="./static/images/forest.png"  style="height:200px; width: 200px;" alt="#"/></figure>
+                  </div>
+                  <div class="our_box">
+                     <h2><mark style="background-color: rgba(0, 128, 0, 0.287);">Reduce deforestation</mark></h2>
+                    
+                     <p style="font-size: 20px;">The use of briquettes also has the potential to preserve forests.
+                       
+                        Approximately 17 trees can be saved per ton of Expanse Briquettes. 
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+    </div>
+     {/* <!-- end impact -->
+      <!--  contact -->
+      <!-- message --> */}
+
+      <div id="contact2" class="contact">
+         <div class="container">
+            <div class="titlepage">
+               <center>
+                  <h2>Thank You !!</h2>
+                  <p style="font:bold 13px;">We have received your email and will respond shortly...</p>
+               </center>
+            </div>
+         </div>
+      </div>
+      {/* <!-- message --> */}
+
+      <div id="contact2" class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Send us a message</h2>
+                  </div>
+               </div>
+               <div class="col-md-12 offset-md-0">
+                  {/* <form id="form_image" class="main_form" role="form" method="POST" autocomplete="off"> */}
+                   
+                     <div class="row">
+                        <div class="col-lg-6 ">
+                           <input class="contactus" placeholder="Name" id="name" type="text" required name="Fullname"> </input>
+                        </div>
+                        <div class="col-lg-6">
+                           <input class="contactus" placeholder="Phone Number" id="tel" pattern="[0][0-9]{9}" title=".Please enter valid phone number:0....." type="tel" required name="Phone"> </input>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <input class="contactus" placeholder="Email" id="email" type="email" required name="Email"> </input>                         
+                        </div>
+                        <div class="col-lg-6">
+                           <input class="contactus" placeholder="Subject" id="Subject" type="text" required name="Subject"></input>                          
+                        </div>
+                     </div>
+                    
+                        <div class="col-md-12">
+                           <textarea rows="6" class="contactus" placeholder="Message" id="message" type="type"required Message="Name" name="Message"></textarea>
+                        </div>
+                        <div class="col-sm-12">
+                           <button type="submit" value="send" id="send" class="send_btn" data-toggle="modal" data-target="#staticBackdrop">Send</button>
+                        </div>
+                     </div>
+                  </div>
+                
+               </div>
+            </div>
+         {/* </div> */}
+      {/* </div> */}
+ 
+      
+
+      {/* <!-- end contact --> */}
+      {/* <!-- Footer --> */}
+
+      <div class="footer" id="contact">
+         <footer>
+            <div class="titlepage">
+               <h2 style="color: white;">Contact</h2>
+
+            </div>
+             <div class="container">
+                 <div class="row">
+                     <div class="col-sm-6 col-md-3 item" id="center">
+                         <ul style="list-style-type: square;">
+                           <li><h4>Visit us at :</h4></li>
+                             <li>Uniafric House, Koinange Street</li>
+                            
+                             <li><h4>Email :</h4></li>
+                             <li><a href="mailto:expanseproducts@gmail.com">expanseproducts@gmail.com</a></li>
+                            
+                             <li><h4>Tel :</h4></li>
+                             <li>0722 437 210 /</li>
+                             <li>0721 576 598</li>
+                             
+                         </ul>
+
+                     
+                     </div>
+                     <div class="col-sm-6 col-md-3 item" id="center">
+                         <ul style="list-style-type:circle">
+                           <li><h4>Postal Address :</h4></li>
+                           <li> P.O BOX, 7544-00100</li>
+                      
+                          
+                         </ul>
+                     </div>
+                     <div class="col-md-6 item text">
+                         <div class="map" style="margin-right: 5px;">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8188399700166!2d36.81547471419097!3d-1.2824996990645796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d3b9a0bfef%3A0x742b7ba0a98ad2ba!2sUniafric%20House%2C%2025%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1660501200148!5m2!1sen!2ske" width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           
+                         </div>
+                     </div>
+                     <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                 </div>
+             </div>
+             
+         </footer>
+     </div>
+     <div class="copyright">
+      <h4 class="copyright">Expanse Products Ltd © 2022</h4>
+    </div>
+    
