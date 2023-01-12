@@ -19,7 +19,7 @@ function Header() {
                                     <a href=""><img src={logo}  alt="#" /></a>
                                  </div>
                                  <div class="col">
-                                    <h1><b>Expanse Products </b> </h1>
+                                    <h1 ><b><span className="logo-header">Expanse </span> <span className="logo-body">Products LTD </span></b> </h1>
                                  </div>
                               </div>
                            </div>
