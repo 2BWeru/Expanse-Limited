@@ -1,0 +1,43 @@
+.footer-text{
+    color: black;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+
+}
+.footer-text a{
+    color: black;
+    font-size: 1rem;
+}
+h6 a{
+    color: black;
+}
+.footer-header{
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: .1rem 0;
+}
+.icon{
+    font-size: 2rem;
+}
+.Header-foot{
+    font-weight: 800;
+    color: black;
+    padding-bottom: 2rem;
+}
+h3{
+    color: black;
+}
+.logo-text{
+    padding:1rem 0;
+}
+.logo-head{
+    color: orangered;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.hr{
+    color: black;
+    width: 2rem;
+}
