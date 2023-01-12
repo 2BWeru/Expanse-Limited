@@ -1,4 +1,5 @@
 import React from "react";
+import "./About.css";
 
 function About () {
     return(
@@ -27,23 +28,23 @@ function About () {
               </div>
               <div class="col-md-6">
                  <div class="titlepage">
-                 <h2>Why Choose Us ?</h2>
+                 <h2>About Us</h2>
               <span></span>
               
                  
                  <p>
-                    Our briquettes are made entirely 
-                    from locally sourced sawdust waste and specially
-                    crafted for industrial boilers.
+                     Expanse Products Limited is a company in Nairobi, Kenya.
+                     Our sole purpose is to make sawdust briquettes as an alternative 
+                     and substitute source of energy.
                  </p>
                
                  <p>
-                    We care about your broilers' durability and sustainability,
-                    hence, we use natural binding agent for super strong briquettes.
+                     We use 100% sawdust biomass to manufacture high quality biomass briquette and pellets.
+                     Our raw material is dry sawdust ONLY .We are able to achieve a maximum moisture content of 6% to 8% at the time of packaging.
                  </p>
                     
                  <p>
-                    As no chemicals or additional additives are used, our sawdust briquettes ensure that your broilers run efficiently.
+                  Our current briquette production capacity is 20 tons per day, which was increased to 30 tons per day by the end of 2022. 
                  </p>
                  </div>
               </div>
