@@ -9,7 +9,6 @@ function Importance () {
         <div class="container">
            <div class="titlepage">
               <h2>Benefits of Sawdust Briquettes</h2>
-              <hr/>
            </div>
            <div class="row">
               <div class="col-md-6 offset-md-0">
@@ -36,7 +35,7 @@ function Importance () {
               <div class="col-md-6">
                  <div class="our_box">
                     <figure>
-                       <img src={img}    alt="#"/></figure>
+                       <img src={img}  className="imp-image"  alt="#"/></figure>
                  </div>
               </div>
            </div>

@@ -8,7 +8,7 @@ import gallery5 from "../../static/images/briq1.jpeg";
 import gallery6 from "../../static/images/briq1.jpeg";
 
 
-
+import "./Gallery.css";
 
 function Gallery () {
     return(
@@ -25,33 +25,33 @@ function Gallery () {
             <div class="row">
                <div class="col-md-4">
                   <div class="our_box">
-                     <figure><img src={gallery1} alt="#"/></figure>
+                     <figure><img src={gallery1} alt="#" className="img"/></figure>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="our_box">
-                     <figure><img src={gallery2} alt="#"/></figure>
+                     <figure><img src={gallery2} alt="#" className="img" /></figure>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="our_box">
-                     <figure><img src={gallery3} alt="#"/></figure>
+                     <figure><img src={gallery3} alt="#" className="img" /></figure>
 
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="our_box">
-                     <figure><img src={gallery6} alt="#"/></figure>
+                     <figure><img src={gallery6} alt="#" className="img" /></figure>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="our_box">
-                     <figure><img src={gallery4} alt="#"/></figure>
+                     <figure><img src={gallery4} alt="#" className="img" /></figure>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="our_box">
-                     <figure><img src={gallery5} alt="#"/></figure>
+                     <figure><img src={gallery5} alt="#" className="img" /></figure>
 
                   </div>
                </div>

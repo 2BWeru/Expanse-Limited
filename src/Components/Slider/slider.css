@@ -1,10 +1,17 @@
 .Slider{
-    width: 120%;
+    width: 100rem;
+    height: 30rem;
+    padding: 2rem 2rem;
     
+}
+.Slider-container{
+    padding-right: 1rem;
+
 }
 .Swipper-wrapper{
     width: 50%;
-    height: 17rem;
+    height: 10rem;
+
 }
 .centered {
     position: absolute;
@@ -13,3 +20,31 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-size: 1rem;
+    }
+    .Swipper-wrapper{
+       
+        width: 1000%;
+        height: 147rem;
+    }
+    .Slider-container{
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        font-size: 2rem;
+        /* padding-right: 1rem; */
+        /* padding-left: 1rem; */
+    }
+    .Slider{
+        width: 100rem;
+        height: 30rem;
+    }
+   
+  }

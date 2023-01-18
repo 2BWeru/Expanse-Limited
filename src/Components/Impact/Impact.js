@@ -1,9 +1,9 @@
 import React from "react";
 
-import impact1 from "../../static/images/recycle.png";
-import impact2 from "../../static/images/group-users.png";
-import impact3 from "../../static/images/investment.png";
-import impact4 from "../../static/images/forest.png";
+import impact1 from "../../static/images/i4.png";
+import impact2 from "../../static/images/i1.png";
+import impact3 from "../../static/images/i3.png";
+import impact4 from "../../static/images/i2.png";
 
 import "./Impact.css";
 

@@ -22,7 +22,7 @@ function About () {
                              that are environmentally clean for the East African Markets.
                           </p>
                     <a href="#contact2" class="read_more">Contact Us<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-               
+                     <br></br>
                  
                  </div>
               </div>

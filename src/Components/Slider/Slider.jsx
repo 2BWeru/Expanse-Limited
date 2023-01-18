@@ -9,19 +9,22 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import swipper2 from "../../static/images/fire8.jpeg";
-import swipper1 from "../../static/images/fire5.jpeg";
+import swipper2 from "../../static/images/fir3.webp";
+import swipper1 from "../../static/images/fir.jpg";
 import swipper3 from "../../static/images/fire6.jpeg";
 
 
 function Slider () {
     return(
-        <div>
+        <div className="Slider-container">
             <Swiper
-            spaceBetween={45}
+            spaceBetween={30}
             slidesPerView={1}
-            loops={true}
+            loopFillGroupWithBlank={true}
             navigation={true}
+            slidesPerGroup={1}
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}   
             modules={[Navigation, Pagination, Scrollbar]}
             >
                 <SwiperSlide>
